@@ -1,0 +1,62 @@
+:root {
+    --main-background: #111827;
+    --input-background: #374151;
+    --submit-button: #8B5CF6;
+    --text-color: white;
+}
+body {
+    background-color: var(--main-background);
+}
+#head {
+    color: var(--text-color);
+    display: flex;
+    margin-left: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+#input {
+    background-color: var(--input-background);
+    display: flex;
+    margin-left: 500px;
+    border: none;
+    height: 40px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+#submit {
+    background-color: var(--main-background);
+    display: flex;
+    border: none;
+    margin-left: 1150px;
+    margin-top: -35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    color: var(--submit-button);
+}
+#tasks {
+    color: var(--text-color);
+    display: flex;
+    margin-left: 500px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.edit {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    border: none;
+    background-color: var(--main-background);
+}
+.delete {
+    color: red;
+    background-color: var(--main-background);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    border: none;
+}
